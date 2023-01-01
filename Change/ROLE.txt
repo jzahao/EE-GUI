@@ -1,0 +1,17 @@
+# Textbox: Role
+entry_ROLE_img = PhotoImage(file = f"signup_textbox_2.png")
+entry_ROLE_bg = canvas.create_image(
+    280.0, 498.5,
+    image = entry_ROLE_img)
+
+entry_ROLE = Entry(
+    font = ("cambria", 14, "italic"),
+    bd = 0,
+    bg = "#FFFFFF",
+    fg = "#535353",
+    highlightthickness = 0)
+
+entry_ROLE.place(
+    x = 187, y = 476,
+    width = 180,
+    height = 40)
